@@ -33,6 +33,10 @@
 	#least{
 		margin-top: 20px;
 		float: left;
+		.least-preview table td{
+			padding: 5px 15px;
+    		border: 1px solid #DCD4D4;
+		}	    
 	}
 }
 .fpnav {

@@ -26,6 +26,9 @@
   .main #least {
     margin-top: 20px;
     float: left; }
+    .main #least .least-preview table td {
+      padding: 5px 15px;
+      border: 1px solid #DCD4D4; }
 
 .fpnav {
   margin-bottom: 0px !important;
