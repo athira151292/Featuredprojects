@@ -17,7 +17,7 @@ gulp.task('lint', function() {
 
 //Compile Our Sass
 gulp.task('sass', function() {
-    return gulp.src('app/scss/style.scss')
+    return gulp.src('app/scss/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('app/css'));
 });

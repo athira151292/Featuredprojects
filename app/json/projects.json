@@ -8,7 +8,7 @@
 				"status":"open",
 				"start_date":"",
 				"end_date":"",
-				"tech": "iOS, Android, PhoneGap, WIndows Mobile",
+				"tech": "iOS, Android, PhoneGap, Windows Mobile",
 				"desc": "Backend is developed using Ruby on Rails. iPhone applications are developed using Objective C and uses map framework, local database integration, web-service calls and remote server synchronization. Android applications are developed using Android SDK (Java platform).",
 				"img": "images/Leapset.jpg"
 			}
@@ -34,7 +34,7 @@
 				"status":"open",
 				"start_date":"",
 				"end_date":"",
-				"tech": "HTML5, Php",
+				"tech": "HTML5, PHP",
 				"desc": "This project involves hosting the Octagon website which is a Bozzuto managed property. Minor tweaks/ changes are in scope at the prevailing development rates. Hosting is automatically renewed each year.",
 				"img": "images/fitness.png"
 			}
@@ -60,7 +60,7 @@
 				"status":"open",
 				"start_date":"23 Sept,2015",
 				"end_date":"18 May,2016",
-				"tech": "Angular, RoR",
+				"tech": "AngularJS, RoR",
 				"desc": "The project is for providing serverside and mobile support for Homestead.",
 				"img": "images/insurance.png"
 			}
@@ -73,7 +73,7 @@
 				"status":"open",
 				"start_date":"23 Sept,2015",
 				"end_date":"18 May,2016",
-				"tech": "Angular, RoR",
+				"tech": "AngularJS, RoR",
 				"desc": "The project is for providing serverside and mobile support for Homestead.",
 				"img": "images/kaBoom.png"
 			}
@@ -86,7 +86,7 @@
 				"status":"open",
 				"start_date":"23 Sept,2015",
 				"end_date":"18 May,2016",
-				"tech": "Angular, RoR",
+				"tech": "AngularJS, RoR",
 				"desc": "The project is for providing serverside and mobile support for Homestead.",
 				"img": "images/kinect.png"
 			}
@@ -99,7 +99,7 @@
 				"status":"open",
 				"start_date":"",
 				"end_date":"",
-				"tech": "HTML5, Php",
+				"tech": "HTML5, PHP",
 				"desc": "This project involves hosting the Octagon website which is a Bozzuto managed property. Minor tweaks/ changes are in scope at the prevailing development rates. Hosting is automatically renewed each year.",
 				"img": "images/netstream.png"
 			}
@@ -125,7 +125,7 @@
 				"status":"open",
 				"start_date":"23 Sept,2015",
 				"end_date":"18 May,2016",
-				"tech": "Angular, RoR",
+				"tech": "AngularJS, RoR",
 				"desc": "The project is for providing serverside and mobile support for Homestead.",
 				"img": "images/payPal.png"
 			}
@@ -147,14 +147,27 @@
 			"project": {
 				"name":"Homestead Support",
 				"customer":"Nextwaretech",
-				"category":"Mobile",
+				"category":"Website/cms",
 				"status":"open",
 				"start_date":"23 Sept,2015",
 				"end_date":"18 May,2016",
-				"tech": "Angular, RoR",
+				"tech": "AngularJS, RoR",
 				"desc": "The project is for providing serverside and mobile support for Homestead.",
 				"img": "images/vod.png"
 			}
 		}
+	],
+	"technology": [
+		"AngularJS",
+		"RoR",
+		"CodeIgniter",
+		"PHP",
+		"HTML5",
+		"Objective C",
+		"iPhone SDK",
+		"iOS",
+		"Android",
+		"PhoneGap",
+		"Windows Mobile"
 	]
 }

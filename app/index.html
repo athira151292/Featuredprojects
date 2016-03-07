@@ -9,6 +9,8 @@
       <link href = "css/bootstrap.min.css" rel = "stylesheet">
       <link href = "css/style.css" rel = "stylesheet">
       <link href= "css/least.min.css" rel="stylesheet" />
+      <link href= "css/bootstrap-select.min.css" rel="stylesheet" />
+      <link href= "css/jquery-ui.css" rel="stylesheet" />
    </head>
    <body>
          <header>
@@ -29,12 +31,8 @@
                   <a class="navbar-brand" href="#">Logo</a>
                </div>
                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav navbar-right">
-                     <li class="active"><a href="#">Home</a></li>
-                     <li><a href="#">Page 1</a></li>
-                     <li><a href="#">Page 2</a></li> 
-                     <li><a href="#">Page 3</a></li> 
-                   </ul>
+                  <select class="selectpicker fpselect" data-live-search="true" title="Filter by technology">
+                  </select>
                </div>
             </div>
          </nav>
@@ -50,12 +48,6 @@
                   <section id="least">
                     <div class="least-preview"></div>
                       <ul class="least-gallery">
-                          <!-- <li>
-                            <a href="images/Leapset.jpg" data-subtitle="View Project Details" title="Leapset" data-caption="Now it's possibe to add an URL-Link into caption text - <a href='http://www.google.com' target='_blank'>GOOGLE</a>" >
-                              <img src="images/Leapset.jpg" alt="Alt Image Text" />
-                            </a>
-                          </li> -->
-                          
                       </ul>
                   </section>
       			</section>
@@ -65,12 +57,11 @@
       <script src = "js/bootstrap.min.js"></script>
       <script src = "js/script.js"></script>
       <script src= "js/least.min.js"></script>
+      <script src= "js/bootstrap-select.js"></script>
+      <script src= "js/jquery-ui.js"></script>
       <script>
          $(document).ready(function(){
-            $.getJSON( "json/projects.json", function(data){
-               var projects = data.projects;
                $('.least-gallery').least();
-            });
            
          });
       </script>
